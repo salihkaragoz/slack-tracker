@@ -16,7 +16,7 @@ https://api.slack.com/custom-integrations/legacy-tokens
 
 ### 
 
-```
+```python
 from slacktracker.slacktracker import SlackChannelSender
 
 channel_name = 'test'  # new or existing channel
