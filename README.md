@@ -22,7 +22,7 @@ from slacktracker.slacktracker import SlackChannelSender
 channel_name = 'deep-experimets'  # new or existing channel
 token = 'xoxp-183066818163-425116505590-531904887203-9a3c8cc3ddaed44b0f318d2d4d4' # example
 
-slack = SlackChannelSender(channel_name, token)
+slack = SlackChannelSender(channel_name, token, private=True) # This will create a channel automatically.
 slack.send_to_channel(text)  #print to channel
 
 
