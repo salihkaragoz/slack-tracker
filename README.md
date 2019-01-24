@@ -24,5 +24,8 @@ token = 'xoxp-183066818163-425116505590-531904887203-9a3c8cc3ddaed44b0f318d2d4d4
 
 slack = SlackChannelSender(channel_name, token)
 slack.send_to_channel(text)  #print to channel
+
+
 ```
+![Output](https://raw.githubusercontent.com/salihkaragoz/slack-tracker/master/report.png)
 
