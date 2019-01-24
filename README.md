@@ -27,5 +27,6 @@ slack.send_to_channel(text)  #print to channel
 
 
 ```
-![Output](https://raw.githubusercontent.com/salihkaragoz/slack-tracker/master/report.png)
+[[https://github.com/salihkaragoz/slack-tracker/blob/master/report.png|alt=octocat]]
+
 
