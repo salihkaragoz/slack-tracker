@@ -19,7 +19,7 @@ class SlackChannelSender():
         if (channel in channel_list or channel in group_list):
             print ('The Channel exist, the outputs will be overwrite!')
         else:
-            print ('The ' + channel + 'will create. ')
+            print ('The ' + channel + ' will create. ')
             if private:
                 self.slack.groups.create(channel)
             else:

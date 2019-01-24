@@ -19,8 +19,8 @@ https://api.slack.com/custom-integrations/legacy-tokens
 ```python
 from slacktracker.slacktracker import SlackChannelSender
 
-channel_name = 'test'  # new or existing channel
-token = 'xar31trtejl45lsdjf123u9asdns' # example
+channel_name = 'deep-experimets'  # new or existing channel
+token = 'xoxp-183066818163-425116505590-531904887203-9a3c8cc3ddaed44b0f318d2d4d4' # example
 
 slack = SlackChannelSender(channel_name, token)
 slack.send_to_channel(text)  #print to channel
