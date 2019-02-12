@@ -16,7 +16,8 @@ class SlackChannelSender():
 
         channel_list = [c['name'] for c in self.slack.channels.list().body['channels']]
         group_list = [c['name'] for c in self.slack.groups.list().body['groups']]
-        if (channel in channel_list or channel in group_list):
+        #if (channel in channel_list or channel in group_list):
+        if (any(s.lower() == channel.lower() for s in channel_list) or any(x.lower() == channel.lower() for x in group_list)):
             print ('The Channel exist, the outputs will be overwrite!')
         else:
             print ('The ' + channel + ' will create. ')
